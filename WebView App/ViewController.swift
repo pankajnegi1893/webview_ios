@@ -2,8 +2,7 @@
 //  ViewController.swift
 //  WebView App
 //
-//  Created by Anil Bist on 11/04/19.
-//  Copyright © 2019 Pankaj Negi. All rights reserved.
+//  Created by Pankaj Negi on 11/04/19.
 //
 
 import UIKit
@@ -22,8 +21,10 @@ class ViewController: UIViewController, WKNavigationDelegate  {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let url = URL(string: "https://www.google.com/")!
-        webView.load(URLRequest(url: url))
+        let url = URL(string: "https://www.crimsonperformance.com/")!
+        let urlRequest = URLRequest(url: url)
+        webView.load(urlRequest);
+        
         
         let refresh = UIBarButtonItem(barButtonSystemItem: .refresh, target: webView, action: #selector(webView.reload))
         

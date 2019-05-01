@@ -2,8 +2,7 @@
 //  WebView_AppTests.swift
 //  WebView AppTests
 //
-//  Created by Anil Bist on 11/04/19.
-//  Copyright © 2019 Pankaj Negi. All rights reserved.
+//  Created by Pankaj Negi on 11/04/19.
 //
 
 import XCTest
